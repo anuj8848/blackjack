@@ -74,7 +74,7 @@ def blackjack():
         results(player,dealer)
          
 while True:
-    gamble=input('You want to play BlackJack(y/n)?: ')
+    gamble=input('You want to play BlackJack(y/n)?: ').lower()
     if gamble=='y':
         blackjack()
     else:
